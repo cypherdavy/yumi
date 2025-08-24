@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "yumi = yumi.main:main"
+            "yumi = yumi.cli:main"
         ],
     },
     author="Davy Cipher",
