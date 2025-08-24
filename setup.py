@@ -15,21 +15,7 @@ setup(
             "yumi = yumi.main:main"
         ],
     },
-    author="Your Name",
+    author="davycipher",
     description="Yumi - JS Recon & P1 Bug Hunter",
-    url="https://github.com/yourgithub/yumi"
+    url="https://github.com/cypherdavy/yum"
 )
-from yumi.plugins import run_plugins_scan
-
-def scan_js_content(url, content):
-    findings = []
-
-
-    plugin_findings = run_plugins_scan(content)
-
-    for f in plugin_findings:
-        f['url'] = url
-    findings.extend(plugin_findings)
-
-    return findings
-
