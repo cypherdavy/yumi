@@ -15,7 +15,7 @@ setup(
             "yumi = yumi.main:main"
         ],
     },
-    author="davycipher",
+    author="Davy Cipher",
     description="Yumi - JS Recon & P1 Bug Hunter",
-    url="https://github.com/cypherdavy/yum"
+    url="https://github.com/cypherdavy/yumi"
 )
