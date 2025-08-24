@@ -1,1 +1,32 @@
+{
+    "scan_summary": {
+        "domain": "example.com",
+        "subdomains_found": 3,
+        "js_files_found": 5,
+        "total_findings": 4,
+        "scan_date": "2025-08-24T11:00:00Z"
+    },
+    "findings": [
+        {
+            "url": "https://cdn.example.com/scripts/app.js",
+            "type": "AWS Access Key",
+            "match": "AKIAIOSFODNN7EXAMPLE"
+        },
+        {
+            "url": "https://static.example.com/js/main.js",
+            "type": "Hardcoded Password",
+            "match": "password = \"supersecret123\""
+        },
+        {
+            "url": "https://www.example.com/assets/js/vendor.js",
+            "type": "JWT Token",
+            "match": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        },
+        {
+            "url": "https://www.example.com/js/utils.js",
+            "type": "Google API Key",
+            "match": "AIzaSyD9gfExampleKey12345"
+        }
+    ]
+}
 
