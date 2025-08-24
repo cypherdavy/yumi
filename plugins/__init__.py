@@ -1,4 +1,3 @@
-
 from .custom_patterns import scan_content_for_custom_patterns
 
 def run_plugins_scan(content):
